@@ -1,0 +1,98 @@
+#form{
+    border:0.5px solid rgb(68, 68, 255);
+    border-radius: 4px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(15, 11, 11);
+}
+a:link, a:visited{
+  border: 5px rgb(0, 0, 0);
+  background-color: #970404fa;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 30px;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-size-adjust: 10px;
+  font-size: 12px; 
+  margin-left: 360px;
+  
+}
+a:hover,a:active{
+  background-color: #ff0000;
+  font-size: 12px;
+}
+
+.nm{
+  border-radius: 5px;
+  border-width: 0.2px;
+  height: 25px;
+  background-color: #d8ebf2;
+}
+.ng{
+  border-radius: 7px;
+  border-width: 0.5px;
+  background-color: #d8ebf2;
+}
+
+.glass{
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+    width:450px;
+    height: px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+                0 6px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:35px;
+    padding: 20px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+.glass:before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: -20px;
+    box-shadow: inset 0 0 500px rgba(255, 255, 255, .4); 
+    filter: blur(10px);
+    z-index: -1;
+  }
+
+h1{ 
+    font:bolder;
+    color: rgb(19, 10, 10); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 span {
+color: blue;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfdfec;
+    font-family: system-ui, calibri, serif;
+    background-repeat: repeat-x;
+    background-image: url("https://i.stack.imgur.com/b7z29.png");
+    animation: movement 10s linear infinite;
+  }
+  
+  @keyframes movement {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 560px 0px;
+    }
+  }
